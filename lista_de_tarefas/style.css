@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.cadastro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+input {
+  padding: 10px;
+  font-size: 20px;
+}
+button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: center;
+  padding-right: 10px;
+}
+li {
+  padding: 5px;
+  cursor: pointer;
+}
+.risco {
+  text-decoration: line-through;
+  opacity: 0.1;
+}
